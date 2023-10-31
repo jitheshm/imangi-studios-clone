@@ -140,11 +140,12 @@ footer{
    
 }
 .footer h1{
-    font-size: 4.9rem;
+    font-size: 3.9rem;
 }
 
 .footerData{
     float: right;
+    margin-right: 164px;
 }
 
 
@@ -186,6 +187,7 @@ footer{
     margin-right: 37px;
     width: 170px;
     height: 56px;
+    gap: 15px;
 }
 .download img{
     border-style: solid;
