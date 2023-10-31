@@ -84,6 +84,34 @@ a{
     font-weight: 400;
     margin-top: 20px;
 }
+
+.about{
+    width: 1024px;
+    margin: auto;
+    height: 580px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.aboutText{
+    width: 50%;
+
+}
+
+.aboutText h1{
+    font-size: 3rem;
+}
+.aboutText p{
+    font-size: 1.2rem;
+}
+.imgContainer{
+    display: flex;
+    height: 526px;
+    width: 314px;
+    
+    align-items: center;
+}
+
 @font-face {
     font-family: "Roboto Condensed";
     src: url(/imangi-studios-clone/ieVl2ZhZI2eCN5jzbjEETS9weq8-19K7DQ.ttf);
