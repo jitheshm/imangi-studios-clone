@@ -88,7 +88,7 @@ a{
 .about{
     width: 1024px;
     margin: auto;
-    height: 580px;
+    height: fit-content;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -111,7 +111,94 @@ a{
     
     align-items: center;
 }
+.footer{
+    width: 1024px;
+    margin: auto;
+    /* display: flex; */
+   
+  
+}
+footer{
+    position: relative;
+    margin-top: 50px;
+    background-color: #000000;
+    height: 620px;
+    color: #ffffff;
+    
+}
+.footerImage{
+    position: absolute;
+    top: -71px;
+    left: 85px;
+}
+.footerText{
+    
+    width: 100%;
+    line-height: 14px;
+    padding-top: 80px;
+    height: 350px;
+   
+}
+.footer h1{
+    font-size: 4.9rem;
+}
 
+.footerData{
+    float: right;
+}
+
+
+.footerText .btn{
+    margin-top: 38px;
+    border-radius: 4px;
+    font-size: 3rem;
+    background-color: #ffffff;
+    font-size: 0.8rem;
+    padding: 10px 25px;
+    width: fit-content;
+    font-weight: 700;
+    
+}
+.footerText a{
+    color: #808080;
+}
+.shareContainer{
+    /* background-color: aqua; */
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    
+    height: 56.8px;
+    font-size: 15px;
+    
+}
+.shareIcons{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.shareIcons img{
+    width: 20px;
+}
+.download{
+    display: flex;
+    margin-right: 37px;
+    width: 170px;
+    height: 56px;
+}
+.download img{
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 9px;
+}
+
+.copyright{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 1rem;
+}
 @font-face {
     font-family: "Roboto Condensed";
     src: url(/imangi-studios-clone/ieVl2ZhZI2eCN5jzbjEETS9weq8-19K7DQ.ttf);
