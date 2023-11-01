@@ -1,6 +1,9 @@
 .header{
     height: 61.44px;
     background-color: #000000;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
 }
 body{
     margin: 0;
@@ -45,6 +48,7 @@ a{
 }
 .poster .title .entry{
     font-size: 3.3rem;
+    font-weight: 600;
     
 }
 
@@ -185,11 +189,11 @@ footer{
 .download{
     display: flex;
     margin-right: 37px;
-    width: 170px;
+    /* width: 170px; */
     height: 56px;
     gap: 15px;
 }
-.download img{
+.download a img{
     border-style: solid;
     border-color: white;
     border-width: 1px;
