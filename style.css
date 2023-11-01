@@ -164,6 +164,13 @@ footer{
     font-weight: 700;
     
 }
+.footerText .btn:hover{
+    background-color: #000000;
+    border-width: 1px;
+    border-style: solid;
+    
+    
+}
 .footerText a{
     color: #808080;
 }
